@@ -1,6 +1,6 @@
 ---
 name: tech-assessment
-description: Generate tech assessment reports for mentor/mentee relationships tracking growth, goals, and action items over time. Use when the mentor says "tech-assessment", "/tech-assessment", or "tech assessment" and provides meeting notes, a transcript, or a summary. The skill produces an updated overview.md, a dated assessment.md archival file, and a Microsoft Teams message draft for the mentee.
+description: Generate tech assessment reports for mentor/mentee relationships tracking growth, goals, and action items over time. Use when the mentor says "tech-assessment", "/tech-assessment", or "tech assessment" and provides meeting notes, a transcript, or a summary. The skill produces an updated overview.md and a dated assessment.md archival file.
 ---
 
 # Tech Assessment
@@ -109,21 +109,6 @@ Key elements:
 - Goals progress table showing previous vs current status
 - Action items (carried over + new)
 - Notes for next assessment
-
-### Output 3: Microsoft Teams Message
-
-Generate a concise, friendly message for the mentee using the template at [assets/teams-message.md](assets/teams-message.md).
-
-**Format:** Markdown suitable for copying into Microsoft Teams
-
-**Include:**
-- Greeting
-- Current focus (1-2 bullets)
-- New learnings (what was discussed)
-- Goals progress (status check)
-- Action items assigned to them with due dates
-
-**Tone:** Encouraging, clear, actionable
 
 ---
 
